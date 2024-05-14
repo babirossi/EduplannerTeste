@@ -1,0 +1,41 @@
+.coordenador, .professores, .alunos{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    font-weight: bold;
+}
+.conteinerUsua .imagens{
+    width: 220px;
+ }
+
+.imagens{
+    margin-top: 50px;
+    text-align: left;
+    align-self: center;
+
+}
+.setabaixo{
+    width: 20px;
+}
+
+.botao button{
+    background-color: #FF6B00;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 150px;
+    height: 30px;
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+
+.botao, .ordenarPor {
+    margin-left: auto;
+}
+.setalado {
+    margin-top: 140px;
+    padding-left: 40px;
+}
+
